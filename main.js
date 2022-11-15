@@ -43,13 +43,6 @@
 // # # # #
 // When you have a program that generates this pattern, define a binding size = 8 and change the program so that it works for any size, outputting a grid of the given width and height.
 
-let gridDimensions = 8
-for(i=1;i<=gridDimensions;i++){
-    for(i=1;i<=gridDimensions;i++){
-        switch(true){
-            case i%2 === 0: console.log('#');break;
-            case i=gridDimensions: console.log('/n'); break;
-            default: console.log(' 0'); break;
-        }
-    }
-}
+//string should be ' # # # #\n' printed 8 times
+//make the string
+//print it 8 times
